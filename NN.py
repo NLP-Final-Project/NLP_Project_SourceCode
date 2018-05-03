@@ -12,17 +12,18 @@ def nonlin(x,deriv=False):
     return 1/(1+np.exp(-x)) 
 
 # input dataset
-X = X1[:4,1:]
+X = X1[:100,1:101]
+print(X)
 
 # output dataset 
-y = np.array([[0,0,1,1]]).T
-
+y = X1[100:102,1:101].T
+print(y)
 # seed random numbers to make calculation
 # deterministic (just a good practice)
 np.random.seed(1)
 
 # initialize weights randomly with mean 0
-syn0 = 2*np.random.random((9081,1)) - 1
+syn0 = 2*np.random.random((100,2)) - 1
 
 for iter in range(10000): 
     
