@@ -5,16 +5,7 @@ Created on Thu May  3 10:05:09 2018
 @author: Rohit
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May  2 21:25:41 2018
-
-@author: Rohit
-"""
-
 # Importing the Libraries
-import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
@@ -34,7 +25,7 @@ attributeList = []
 attributeList.append('project_essay_1')
 attributeList.append('project_essay_2')
 
-# preprocess the essay attributes by removing stop words and lemmatization
+# preprocess/clean the essay attributes by removing stop words and perform lemmatization
 corpus_main = []
 for attr in attributeList:
     corpus = []
@@ -135,8 +126,9 @@ for model in range(5):
         print("Accuracy of Random_Forest: ", Random_Forest())
         
 
-
+#######################################################################################################
 # Artificial Neural Network  
+#######################################################################################################        
         
 # Import ANN libraries   
 import keras
@@ -165,9 +157,8 @@ classifierANN.fit(X_train, y_train, batch_size = 10, nb_epoch = 10)
 y_predANN = classifierANN.predict(X_test)
 y_predANN = (y_predANN > 0.5)
 
-# Making the Confusion Matrix
-from sklearn.metrics import confusion_matrix
-cm = confusion_matrix(y_test, y_predANN)
+# Confusion Matrix
+cmANN = confusion_matrix(y_test, y_predANN)
 
 accuracyANN = (cmANN[0][0] + cmANN[1][1]) / (cmANN[0][0] + cmANN[0][1] + cmANN[1][0] + cmANN[1][1])
 
