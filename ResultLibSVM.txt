@@ -1,0 +1,384 @@
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 0.1 -g 0.1 -v 5 .\trainEssay1SVM
+......*...*
+optimization finished, #iter = 9839
+nu = 0.301071
+obj = -163.849172, rho = 0.982619
+nSV = 5526, nBSV = 871
+Total nSV = 5526
+......*...*
+optimization finished, #iter = 9846
+nu = 0.300768
+obj = -163.640739, rho = 0.982651
+nSV = 5522, nBSV = 870
+Total nSV = 5522
+......*...*
+optimization finished, #iter = 9906
+nu = 0.301071
+obj = -163.834625, rho = 0.982597
+nSV = 5528, nBSV = 872
+Total nSV = 5528
+......*...*
+optimization finished, #iter = 9888
+nu = 0.300768
+obj = -163.649494, rho = 0.982555
+nSV = 5522, nBSV = 873
+Total nSV = 5522
+......*...*
+optimization finished, #iter = 9981
+nu = 0.300822
+obj = -163.590500, rho = 0.982519
+nSV = 5517, nBSV = 867
+Total nSV = 5517
+Cross Validation Accuracy = 84.955%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 1 -g 0.1 -v 5 .\trainEssay1SVM
+.........*...*
+optimization finished, #iter = 12937
+nu = 0.300982
+obj = -1210.947052, rho = 0.826439
+nSV = 5530, nBSV = 867
+Total nSV = 5530
+.........*....*
+optimization finished, #iter = 13081
+nu = 0.300738
+obj = -1208.089997, rho = 0.826785
+nSV = 5528, nBSV = 865
+Total nSV = 5528
+.........*....*
+optimization finished, #iter = 13255
+nu = 0.300978
+obj = -1209.499125, rho = 0.826222
+nSV = 5530, nBSV = 868
+Total nSV = 5530
+.........*....*
+optimization finished, #iter = 13183
+nu = 0.300768
+obj = -1208.965337, rho = 0.825676
+nSV = 5524, nBSV = 871
+Total nSV = 5524
+.........*....*
+optimization finished, #iter = 13361
+nu = 0.300729
+obj = -1203.089685, rho = 0.825442
+nSV = 5514, nBSV = 863
+Total nSV = 5514
+Cross Validation Accuracy = 84.5692%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 10 -g 0.1 -v 5 .\trainEssay1SVM
+...........*..*
+optimization finished, #iter = 13509
+nu = 0.060947
+obj = -1950.648504, rho = 0.702212
+nSV = 5526, nBSV = 50
+Total nSV = 5526
+...........*.*
+optimization finished, #iter = 12519
+nu = 0.060323
+obj = -1922.120235, rho = 0.703430
+nSV = 5522, nBSV = 49
+Total nSV = 5522
+...........*.*
+optimization finished, #iter = 12368
+nu = 0.060716
+obj = -1980.855477, rho = 0.703470
+nSV = 5528, nBSV = 56
+Total nSV = 5528
+...........*...*
+optimization finished, #iter = 14070
+nu = 0.060653
+obj = -1960.386269, rho = 0.702116
+nSV = 5521, nBSV = 54
+Total nSV = 5521
+...........*....*
+optimization finished, #iter = 15278
+nu = 0.058989
+obj = -1864.523111, rho = 0.702651
+nSV = 5512, nBSV = 44
+Total nSV = 5512
+Cross Validation Accuracy = 84.3692%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 100 -g 0.1 -v 5 .\trainEssay1SVM
+...........*..*
+optimization finished, #iter = 13665
+nu = 0.013825
+obj = -6271.033292, rho = 0.702154
+nSV = 5526, nBSV = 45
+Total nSV = 5526
+...........*.*
+optimization finished, #iter = 12507
+nu = 0.013440
+obj = -6062.440342, rho = 0.703383
+nSV = 5521, nBSV = 45
+Total nSV = 5521
+...........*.*
+optimization finished, #iter = 12397
+nu = 0.015075
+obj = -7020.924574, rho = 0.703454
+nSV = 5527, nBSV = 54
+Total nSV = 5527
+...........*...*
+optimization finished, #iter = 14187
+nu = 0.014433
+obj = -6640.599604, rho = 0.702075
+nSV = 5523, nBSV = 51
+Total nSV = 5523
+...........*....*
+optimization finished, #iter = 15343
+nu = 0.012665
+obj = -5644.855138, rho = 0.702601
+nSV = 5512, nBSV = 40
+Total nSV = 5512
+Cross Validation Accuracy = 84.3692%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 1000 -g 0.1 -v 5 .\trainEssay1SVM
+...........*..*
+optimization finished, #iter = 13665
+nu = 0.009097
+obj = -49471.033292, rho = 0.702154
+nSV = 5526, nBSV = 45
+Total nSV = 5526
+...........*.*
+optimization finished, #iter = 12507
+nu = 0.008738
+obj = -47462.440342, rho = 0.703383
+nSV = 5521, nBSV = 45
+Total nSV = 5521
+...........*.*
+optimization finished, #iter = 12397
+nu = 0.010507
+obj = -57420.924574, rho = 0.703454
+nSV = 5527, nBSV = 54
+Total nSV = 5527
+...........*...*
+optimization finished, #iter = 14187
+nu = 0.009802
+obj = -53440.599604, rho = 0.702075
+nSV = 5523, nBSV = 51
+Total nSV = 5523
+...........*....*
+optimization finished, #iter = 15343
+nu = 0.008019
+obj = -43444.855138, rho = 0.702601
+nSV = 5512, nBSV = 40
+Total nSV = 5512
+Cross Validation Accuracy = 84.3692%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 10000 -g 0.1 -v 5 .\trainEssay1SVM
+...........*..*
+optimization finished, #iter = 13665
+nu = 0.008624
+obj = -481471.033292, rho = 0.702154
+nSV = 5526, nBSV = 45
+Total nSV = 5526
+...........*.*
+optimization finished, #iter = 12507
+nu = 0.008268
+obj = -461462.440342, rho = 0.703383
+nSV = 5521, nBSV = 45
+Total nSV = 5521
+...........*.*
+optimization finished, #iter = 12397
+nu = 0.010051
+obj = -561420.924574, rho = 0.703454
+nSV = 5527, nBSV = 54
+Total nSV = 5527
+...........*...*
+optimization finished, #iter = 14187
+nu = 0.009339
+obj = -521440.599604, rho = 0.702075
+nSV = 5523, nBSV = 51
+Total nSV = 5523
+...........*....*
+optimization finished, #iter = 15343
+nu = 0.007554
+obj = -421444.855138, rho = 0.702601
+nSV = 5512, nBSV = 40
+Total nSV = 5512
+Cross Validation Accuracy = 84.3692%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 0.1 -g 0.1 -v 5 .\trainEssay2SVM
+......*....*
+optimization finished, #iter = 10648
+nu = 0.301071
+obj = -163.652630, rho = 0.982321
+nSV = 5599, nBSV = 844
+Total nSV = 5599
+......*....*
+optimization finished, #iter = 10609
+nu = 0.300768
+obj = -163.457371, rho = 0.982349
+nSV = 5597, nBSV = 843
+Total nSV = 5597
+......*....*
+optimization finished, #iter = 10692
+nu = 0.301071
+obj = -163.643851, rho = 0.982265
+nSV = 5599, nBSV = 843
+Total nSV = 5599
+......*....*
+optimization finished, #iter = 10594
+nu = 0.300768
+obj = -163.462880, rho = 0.982370
+nSV = 5597, nBSV = 844
+Total nSV = 5597
+......*....*
+optimization finished, #iter = 10593
+nu = 0.300822
+obj = -163.466252, rho = 0.982362
+nSV = 5595, nBSV = 844
+Total nSV = 5595
+Cross Validation Accuracy = 84.955%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 1 -g 0.1 -v 5 .\trainEssay2SVM
+..........*.....*
+optimization finished, #iter = 15811
+nu = 0.301071
+obj = -1191.294010, rho = 0.823206
+nSV = 5599, nBSV = 844
+Total nSV = 5599
+..........*.....*
+optimization finished, #iter = 15454
+nu = 0.300768
+obj = -1189.768830, rho = 0.823493
+nSV = 5597, nBSV = 842
+Total nSV = 5597
+..........*....*
+optimization finished, #iter = 14974
+nu = 0.301071
+obj = -1190.412290, rho = 0.822638
+nSV = 5599, nBSV = 843
+Total nSV = 5599
+..........*....*
+optimization finished, #iter = 14892
+nu = 0.300768
+obj = -1190.320386, rho = 0.823709
+nSV = 5597, nBSV = 843
+Total nSV = 5597
+..........*.....*
+optimization finished, #iter = 15045
+nu = 0.300822
+obj = -1190.657104, rho = 0.823629
+nSV = 5595, nBSV = 843
+Total nSV = 5595
+Cross Validation Accuracy = 84.9407%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 10 -g 0.1 -v 5 .\trainEssay2SVM
+............*...*
+optimization finished, #iter = 15988
+nu = 0.051635
+obj = -1446.580451, rho = 0.699117
+nSV = 5599, nBSV = 1
+Total nSV = 5599
+............*....*
+optimization finished, #iter = 16176
+nu = 0.051418
+obj = -1439.474496, rho = 0.699569
+nSV = 5597, nBSV = 0
+Total nSV = 5597
+............*.....*
+optimization finished, #iter = 17925
+nu = 0.051283
+obj = -1435.950060, rho = 0.698462
+nSV = 5599, nBSV = 0
+Total nSV = 5599
+............*....*
+optimization finished, #iter = 16761
+nu = 0.051718
+obj = -1448.640427, rho = 0.699777
+nSV = 5597, nBSV = 1
+Total nSV = 5597
+............*...*
+optimization finished, #iter = 15991
+nu = 0.051815
+obj = -1451.091705, rho = 0.699529
+nSV = 5595, nBSV = 1
+Total nSV = 5595
+Cross Validation Accuracy = 84.8693%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 100 -g 0.1 -v 5 .\trainEssay2SVM
+............*....*
+optimization finished, #iter = 16053
+nu = 0.005167
+obj = -1446.649877, rho = 0.699102
+nSV = 5599, nBSV = 0
+Total nSV = 5599
+............*....*
+optimization finished, #iter = 16176
+nu = 0.005142
+obj = -1439.474496, rho = 0.699569
+nSV = 5597, nBSV = 0
+Total nSV = 5597
+............*.....*
+optimization finished, #iter = 17925
+nu = 0.005128
+obj = -1435.950060, rho = 0.698462
+nSV = 5599, nBSV = 0
+Total nSV = 5599
+............*....*
+optimization finished, #iter = 16709
+nu = 0.005175
+obj = -1448.709931, rho = 0.699762
+nSV = 5597, nBSV = 0
+Total nSV = 5597
+............*...*
+optimization finished, #iter = 15922
+nu = 0.005185
+obj = -1451.161208, rho = 0.699515
+nSV = 5595, nBSV = 0
+Total nSV = 5595
+Cross Validation Accuracy = 84.8693%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 1000 -g 0.1 -v 5 .\trainEssay2SVM
+............*....*
+optimization finished, #iter = 16053
+nu = 0.000517
+obj = -1446.649877, rho = 0.699102
+nSV = 5599, nBSV = 0
+Total nSV = 5599
+............*....*
+optimization finished, #iter = 16176
+nu = 0.000514
+obj = -1439.474496, rho = 0.699569
+nSV = 5597, nBSV = 0
+Total nSV = 5597
+............*.....*
+optimization finished, #iter = 17925
+nu = 0.000513
+obj = -1435.950060, rho = 0.698462
+nSV = 5599, nBSV = 0
+Total nSV = 5599
+............*....*
+optimization finished, #iter = 16709
+nu = 0.000517
+obj = -1448.709931, rho = 0.699762
+nSV = 5597, nBSV = 0
+Total nSV = 5597
+............*...*
+optimization finished, #iter = 15922
+nu = 0.000518
+obj = -1451.161208, rho = 0.699515
+nSV = 5595, nBSV = 0
+Total nSV = 5595
+Cross Validation Accuracy = 84.8693%
+PS C:\Users\weiju\Desktop\luc\nlp\hw3\libsvm\windows> .\svm-train -s 0 -c 10000 -g 0.1 -v 5 .\trainEssay2SVM
+............*....*
+optimization finished, #iter = 16053
+nu = 0.000052
+obj = -1446.649877, rho = 0.699102
+nSV = 5599, nBSV = 0
+Total nSV = 5599
+............*....*
+optimization finished, #iter = 16176
+nu = 0.000051
+obj = -1439.474496, rho = 0.699569
+nSV = 5597, nBSV = 0
+Total nSV = 5597
+............*.....*
+optimization finished, #iter = 17925
+nu = 0.000051
+obj = -1435.950060, rho = 0.698462
+nSV = 5599, nBSV = 0
+Total nSV = 5599
+............*....*
+optimization finished, #iter = 16709
+nu = 0.000052
+obj = -1448.709931, rho = 0.699762
+nSV = 5597, nBSV = 0
+Total nSV = 5597
+............*...*
+optimization finished, #iter = 15922
+nu = 0.000052
+obj = -1451.161208, rho = 0.699515
+nSV = 5595, nBSV = 0
+Total nSV = 5595
+Cross Validation Accuracy = 84.8693%

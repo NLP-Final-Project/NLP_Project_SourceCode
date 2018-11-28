@@ -1,0 +1,269 @@
+Choose the essay that you want to analyze (1 or 2): 1
+How many samples do you want to use for training (100-7000): 2000
+In SVM model:
+C=0.01000000; kernel=linear; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.01000000; kernel=rbf; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00100000; kernel=linear; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00100000; kernel=rbf; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00010000; kernel=linear; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00010000; kernel=rbf; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00001000; kernel=linear; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00001000; kernel=rbf; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+
+
+In LR model:
+C=0.10000000; penalty=1; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.10000000; penalty=2; ACC=0.833(+/- 0.014); f1=0.909(+/- 0.008)
+C=0.01000000; penalty=1; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.01000000; penalty=2; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00100000; penalty=1; ACC=0.847(+/- 0.003); f1=0.917(+/- 0.002)
+C=0.00100000; penalty=2; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00010000; penalty=1; ACC=0.847(+/- 0.003); f1=0.917(+/- 0.002)
+C=0.00010000; penalty=2; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+
+
+In SGD model:
+alpha=10.00000000; penalty=1; ACC=0.825(+/- 0.069); f1=0.917(+/- 0.001)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+alpha=10.00000000; penalty=2; ACC=0.847(+/- 0.002); f1=0.826(+/- 0.275)
+alpha=100.00000000; penalty=1; ACC=0.778(+/- 0.209); f1=0.917(+/- 0.001)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+alpha=100.00000000; penalty=2; ACC=0.847(+/- 0.002); f1=0.826(+/- 0.275)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+alpha=1000.00000000; penalty=1; ACC=0.778(+/- 0.208); f1=0.826(+/- 0.275)
+alpha=1000.00000000; penalty=2; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+alpha=10000.00000000; penalty=1; ACC=0.639(+/- 0.319); f1=0.917(+/- 0.001)
+alpha=10000.00000000; penalty=2; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+
+
+In DecisionTree model:
+ACC=0.780(+/- 0.204); f1=0.829(+/- 0.265)
+
+
+In AdaBoost model:
+learning_rate=0.20000000; ACC=0.790(+/- 0.165); f1=0.857(+/- 0.176)
+learning_rate=0.04000000; ACC=0.780(+/- 0.204); f1=0.829(+/- 0.265)
+learning_rate=0.00800000; ACC=0.780(+/- 0.204); f1=0.829(+/- 0.265)
+
+
+In GradientBoosting model:
+n_estrimator=50; ACC=0.779(+/- 0.203); f1=0.829(+/- 0.265)
+n_estrimator=100; ACC=0.778(+/- 0.203); f1=0.828(+/- 0.265)
+n_estrimator=150; ACC=0.778(+/- 0.203); f1=0.828(+/- 0.264)
+n_estrimator=200; ACC=0.775(+/- 0.202); f1=0.826(+/- 0.264)
+n_estrimator=250; ACC=0.775(+/- 0.202); f1=0.826(+/- 0.264)
+
+
+In KNN model:
+N=1; p=1; ACC=0.468(+/- 0.204); f1=0.572(+/- 0.219)
+N=1; p=2; ACC=0.436(+/- 0.217); f1=0.531(+/- 0.235)
+N=2; p=1; ACC=0.441(+/- 0.205); f1=0.541(+/- 0.230)
+N=2; p=2; ACC=0.431(+/- 0.219); f1=0.525(+/- 0.237)
+N=3; p=1; ACC=0.473(+/- 0.203); f1=0.577(+/- 0.224)
+N=3; p=2; ACC=0.446(+/- 0.212); f1=0.544(+/- 0.229)
+N=4; p=1; ACC=0.459(+/- 0.208); f1=0.561(+/- 0.230)
+N=4; p=2; ACC=0.441(+/- 0.215); f1=0.537(+/- 0.235)
+N=5; p=1; ACC=0.488(+/- 0.197); f1=0.595(+/- 0.219)
+N=5; p=2; ACC=0.456(+/- 0.210); f1=0.557(+/- 0.230)
+N=6; p=1; ACC=0.478(+/- 0.202); f1=0.581(+/- 0.229)
+N=6; p=2; ACC=0.450(+/- 0.213); f1=0.548(+/- 0.236)
+N=7; p=1; ACC=0.538(+/- 0.219); f1=0.638(+/- 0.238)
+N=7; p=2; ACC=0.473(+/- 0.203); f1=0.576(+/- 0.229)
+N=8; p=1; ACC=0.524(+/- 0.225); f1=0.621(+/- 0.247)
+N=8; p=2; ACC=0.461(+/- 0.208); f1=0.562(+/- 0.233)
+N=9; p=1; ACC=0.550(+/- 0.215); f1=0.651(+/- 0.235)
+N=9; p=2; ACC=0.520(+/- 0.228); f1=0.616(+/- 0.248)
+N=10; p=1; ACC=0.536(+/- 0.223); f1=0.634(+/- 0.249)
+N=10; p=2; ACC=0.506(+/- 0.235); f1=0.600(+/- 0.253)
+N=11; p=1; ACC=0.559(+/- 0.217); f1=0.656(+/- 0.248)
+N=11; p=2; ACC=0.540(+/- 0.218); f1=0.640(+/- 0.236)
+N=12; p=1; ACC=0.548(+/- 0.221); f1=0.644(+/- 0.254)
+N=12; p=2; ACC=0.538(+/- 0.219); f1=0.637(+/- 0.236)
+N=13; p=1; ACC=0.564(+/- 0.213); f1=0.663(+/- 0.239)
+N=13; p=2; ACC=0.549(+/- 0.214); f1=0.650(+/- 0.234)
+N=14; p=1; ACC=0.554(+/- 0.220); f1=0.649(+/- 0.256)
+N=14; p=2; ACC=0.542(+/- 0.221); f1=0.639(+/- 0.250)
+N=15; p=1; ACC=0.576(+/- 0.210); f1=0.674(+/- 0.241)
+N=15; p=2; ACC=0.556(+/- 0.213); f1=0.656(+/- 0.237)
+N=16; p=1; ACC=0.569(+/- 0.217); f1=0.663(+/- 0.256)
+N=16; p=2; ACC=0.548(+/- 0.217); f1=0.648(+/- 0.239)
+N=17; p=1; ACC=0.593(+/- 0.209); f1=0.689(+/- 0.247)
+N=17; p=2; ACC=0.561(+/- 0.212); f1=0.661(+/- 0.237)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=18; p=1; ACC=0.584(+/- 0.216); f1=0.677(+/- 0.260)
+N=18; p=2; ACC=0.559(+/- 0.212); f1=0.660(+/- 0.237)
+N=19; p=1; ACC=0.635(+/- 0.224); f1=0.719(+/- 0.258)
+N=19; p=2; ACC=0.577(+/- 0.200); f1=0.681(+/- 0.219)
+N=20; p=1; ACC=0.622(+/- 0.229); f1=0.706(+/- 0.267)
+N=20; p=2; ACC=0.571(+/- 0.202); f1=0.676(+/- 0.219)
+N=21; p=1; ACC=0.646(+/- 0.220); f1=0.731(+/- 0.254)
+N=21; p=2; ACC=0.617(+/- 0.211); f1=0.713(+/- 0.226)
+N=22; p=1; ACC=0.637(+/- 0.225); f1=0.720(+/- 0.267)
+N=22; p=2; ACC=0.614(+/- 0.213); f1=0.710(+/- 0.229)
+N=23; p=1; ACC=0.691(+/- 0.218); f1=0.766(+/- 0.251)
+N=23; p=2; ACC=0.659(+/- 0.212); f1=0.747(+/- 0.228)
+N=24; p=1; ACC=0.683(+/- 0.224); f1=0.759(+/- 0.256)
+N=24; p=2; ACC=0.654(+/- 0.217); f1=0.741(+/- 0.237)
+N=25; p=1; ACC=0.718(+/- 0.222); f1=0.785(+/- 0.255)
+N=25; p=2; ACC=0.715(+/- 0.217); f1=0.787(+/- 0.240)
+N=26; p=1; ACC=0.713(+/- 0.227); f1=0.780(+/- 0.262)
+N=26; p=2; ACC=0.712(+/- 0.222); f1=0.783(+/- 0.245)
+N=27; p=1; ACC=0.721(+/- 0.218); f1=0.790(+/- 0.249)
+N=27; p=2; ACC=0.719(+/- 0.214); f1=0.791(+/- 0.239)
+N=28; p=1; ACC=0.719(+/- 0.220); f1=0.787(+/- 0.250)
+N=28; p=2; ACC=0.717(+/- 0.217); f1=0.787(+/- 0.245)
+N=29; p=1; ACC=0.729(+/- 0.212); f1=0.797(+/- 0.242)
+N=29; p=2; ACC=0.722(+/- 0.210); f1=0.793(+/- 0.237)
+N=30; p=1; ACC=0.725(+/- 0.213); f1=0.794(+/- 0.242)
+N=30; p=2; ACC=0.718(+/- 0.215); f1=0.790(+/- 0.239)
+
+Choose the essay that you want to analyze (1 or 2): 2
+How many samples do you want to use for training (100-7000): 2000
+In SVM model:
+C=0.01000000; kernel=linear; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.01000000; kernel=rbf; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00100000; kernel=linear; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00100000; kernel=rbf; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00010000; kernel=linear; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00010000; kernel=rbf; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00001000; kernel=linear; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00001000; kernel=rbf; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+
+
+In LR model:
+C=0.10000000; penalty=1; ACC=0.847(+/- 0.003); f1=0.917(+/- 0.002)
+C=0.10000000; penalty=2; ACC=0.827(+/- 0.016); f1=0.904(+/- 0.010)
+C=0.01000000; penalty=1; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.01000000; penalty=2; ACC=0.847(+/- 0.003); f1=0.917(+/- 0.002)
+C=0.00100000; penalty=1; ACC=0.847(+/- 0.003); f1=0.917(+/- 0.002)
+C=0.00100000; penalty=2; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C=0.00010000; penalty=1; ACC=0.847(+/- 0.003); f1=0.917(+/- 0.002)
+C=0.00010000; penalty=2; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+
+
+In SGD model:
+alpha=10.00000000; penalty=1; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+alpha=10.00000000; penalty=2; ACC=0.778(+/- 0.208); f1=0.826(+/- 0.275)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+alpha=100.00000000; penalty=1; ACC=0.708(+/- 0.278); f1=0.734(+/- 0.367)
+alpha=100.00000000; penalty=2; ACC=0.778(+/- 0.208); f1=0.917(+/- 0.001)
+alpha=1000.00000000; penalty=1; ACC=0.639(+/- 0.318); f1=0.917(+/- 0.001)
+alpha=1000.00000000; penalty=2; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+alpha=10000.00000000; penalty=1; ACC=0.778(+/- 0.208); f1=0.734(+/- 0.367)
+alpha=10000.00000000; penalty=2; ACC=0.847(+/- 0.002); f1=0.917(+/- 0.001)
+
+
+In DecisionTree model:
+ACC=0.780(+/- 0.204); f1=0.829(+/- 0.265)
+
+
+In AdaBoost model:
+learning_rate=0.20000000; ACC=0.793(+/- 0.157); f1=0.861(+/- 0.164)
+learning_rate=0.04000000; ACC=0.782(+/- 0.196); f1=0.835(+/- 0.248)
+learning_rate=0.00800000; ACC=0.780(+/- 0.204); f1=0.829(+/- 0.265)
+
+
+In GradientBoosting model:
+n_estrimator=50; ACC=0.780(+/- 0.204); f1=0.829(+/- 0.265)
+n_estrimator=100; ACC=0.780(+/- 0.204); f1=0.829(+/- 0.265)
+n_estrimator=150; ACC=0.779(+/- 0.203); f1=0.829(+/- 0.265)
+n_estrimator=200; ACC=0.778(+/- 0.202); f1=0.829(+/- 0.261)
+n_estrimator=250; ACC=0.777(+/- 0.203); f1=0.827(+/- 0.264)
+
+
+In KNN model:
+N=1; p=1; ACC=0.462(+/- 0.208); f1=0.560(+/- 0.238)
+N=1; p=2; ACC=0.433(+/- 0.220); f1=0.526(+/- 0.243)
+N=2; p=1; ACC=0.444(+/- 0.212); f1=0.539(+/- 0.240)
+N=2; p=2; ACC=0.429(+/- 0.222); f1=0.520(+/- 0.246)
+N=3; p=1; ACC=0.461(+/- 0.208); f1=0.560(+/- 0.235)
+N=3; p=2; ACC=0.444(+/- 0.216); f1=0.539(+/- 0.242)
+N=4; p=1; ACC=0.451(+/- 0.212); f1=0.547(+/- 0.241)
+N=4; p=2; ACC=0.436(+/- 0.220); f1=0.529(+/- 0.246)
+N=5; p=1; ACC=0.478(+/- 0.207); f1=0.580(+/- 0.237)
+N=5; p=2; ACC=0.452(+/- 0.213); f1=0.550(+/- 0.238)
+N=6; p=1; ACC=0.465(+/- 0.208); f1=0.565(+/- 0.238)
+N=6; p=2; ACC=0.445(+/- 0.217); f1=0.541(+/- 0.243)
+N=7; p=1; ACC=0.520(+/- 0.225); f1=0.617(+/- 0.253)
+N=7; p=2; ACC=0.465(+/- 0.207); f1=0.567(+/- 0.231)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=8; p=1; ACC=0.509(+/- 0.224); f1=0.605(+/- 0.257)
+N=8; p=2; ACC=0.461(+/- 0.209); f1=0.562(+/- 0.232)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=9; p=1; ACC=0.534(+/- 0.227); f1=0.629(+/- 0.260)
+N=9; p=2; ACC=0.514(+/- 0.231); f1=0.610(+/- 0.248)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=10; p=1; ACC=0.526(+/- 0.230); f1=0.621(+/- 0.261)
+N=10; p=2; ACC=0.505(+/- 0.236); f1=0.600(+/- 0.253)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=11; p=1; ACC=0.544(+/- 0.226); f1=0.638(+/- 0.261)
+N=11; p=2; ACC=0.540(+/- 0.219); f1=0.639(+/- 0.239)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=12; p=1; ACC=0.536(+/- 0.228); f1=0.631(+/- 0.262)
+N=12; p=2; ACC=0.537(+/- 0.221); f1=0.635(+/- 0.242)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=13; p=1; ACC=0.558(+/- 0.223); f1=0.652(+/- 0.261)
+N=13; p=2; ACC=0.550(+/- 0.214); f1=0.650(+/- 0.234)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=14; p=1; ACC=0.551(+/- 0.225); f1=0.645(+/- 0.262)
+N=14; p=2; ACC=0.543(+/- 0.220); f1=0.641(+/- 0.245)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=15; p=1; ACC=0.596(+/- 0.230); f1=0.685(+/- 0.270)
+N=15; p=2; ACC=0.557(+/- 0.213); f1=0.657(+/- 0.237)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=16; p=1; ACC=0.584(+/- 0.229); f1=0.674(+/- 0.269)
+N=16; p=2; ACC=0.551(+/- 0.215); f1=0.651(+/- 0.238)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=17; p=1; ACC=0.622(+/- 0.245); f1=0.703(+/- 0.280)
+N=17; p=2; ACC=0.561(+/- 0.211); f1=0.662(+/- 0.237)
+C:\WinPython-64bit-3.5.4.0Qt5\python-3.5.4.amd64\lib\site-packages\sklearn\metrics\classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+N=18; p=1; ACC=0.612(+/- 0.247); f1=0.693(+/- 0.281)
+N=18; p=2; ACC=0.557(+/- 0.213); f1=0.658(+/- 0.238)
+N=19; p=1; ACC=0.646(+/- 0.239); f1=0.725(+/- 0.271)
+N=19; p=2; ACC=0.574(+/- 0.202); f1=0.678(+/- 0.219)
+N=20; p=1; ACC=0.638(+/- 0.239); f1=0.719(+/- 0.271)
+N=20; p=2; ACC=0.572(+/- 0.203); f1=0.676(+/- 0.220)
+N=21; p=1; ACC=0.658(+/- 0.235); f1=0.737(+/- 0.262)
+N=21; p=2; ACC=0.615(+/- 0.213); f1=0.711(+/- 0.229)
+N=22; p=1; ACC=0.648(+/- 0.238); f1=0.727(+/- 0.268)
+N=22; p=2; ACC=0.614(+/- 0.213); f1=0.710(+/- 0.229)
+N=23; p=1; ACC=0.672(+/- 0.222); f1=0.754(+/- 0.244)
+N=23; p=2; ACC=0.659(+/- 0.212); f1=0.746(+/- 0.230)
+N=24; p=1; ACC=0.661(+/- 0.227); f1=0.743(+/- 0.253)
+N=24; p=2; ACC=0.651(+/- 0.220); f1=0.738(+/- 0.241)
+N=25; p=1; ACC=0.692(+/- 0.213); f1=0.771(+/- 0.239)
+N=25; p=2; ACC=0.712(+/- 0.221); f1=0.783(+/- 0.245)
+N=26; p=1; ACC=0.684(+/- 0.217); f1=0.763(+/- 0.243)
+N=26; p=2; ACC=0.710(+/- 0.225); f1=0.780(+/- 0.252)
+N=27; p=1; ACC=0.721(+/- 0.211); f1=0.793(+/- 0.241)
+N=27; p=2; ACC=0.719(+/- 0.215); f1=0.789(+/- 0.244)
+N=28; p=1; ACC=0.713(+/- 0.215); f1=0.784(+/- 0.250)
+N=28; p=2; ACC=0.715(+/- 0.220); f1=0.785(+/- 0.249)
+N=29; p=1; ACC=0.739(+/- 0.210); f1=0.806(+/- 0.239)
+N=29; p=2; ACC=0.738(+/- 0.209); f1=0.804(+/- 0.241)
+N=30; p=1; ACC=0.734(+/- 0.213); f1=0.801(+/- 0.247)
+N=30; p=2; ACC=0.719(+/- 0.215); f1=0.789(+/- 0.244)
